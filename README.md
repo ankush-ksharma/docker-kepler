@@ -19,6 +19,6 @@ at [http://localhost:8080](http://localhost:8080).
 ## Build
 
 ```bash
-docker build -t /docker-kepler  https://github.com/ankush-ksharma/docker-kepler.git
+docker build -t docker-keplergl  https://github.com/ankush-ksharma/docker-kepler.git
 ```
 
