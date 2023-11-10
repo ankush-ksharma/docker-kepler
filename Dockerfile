@@ -1,5 +1,7 @@
 FROM node:13.10.1-alpine3.11
 
+LABEL maintainer="Stefan Kuethe <crazycapivara@gmail.com>"
+
 RUN apk update \
 	&& apk upgrade \
 	&& apk add git
