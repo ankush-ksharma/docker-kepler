@@ -3,13 +3,6 @@
 * [http://kepler.gl](http://kepler.gl)
 * [https://github.com/uber/kepler.gl](https://github.com/uber/kepler.gl)
 
-## Pull
-
-```bash
-docker pull crazycapivara/kepler.gl
-```
-
-## Run
 
 ```bash
 docker run --name kepler.gl -p 8080:80 -d crazycapivara/kepler.gl
@@ -23,8 +16,8 @@ Some modules need to be build at startup. Therefore, it will a take a minute unt
 at [http://localhost:8080](http://localhost:8080).
 
 ## Build
-
+Clone the repo. Go to Root of the dir and run the followings
 ```bash
-docker build -t crazycapivara/kepler.gl https://github.com/crazycapivara/docker-kepler.gl.git
+docker build . -t keplergl
 ```
 
