@@ -1,7 +1,5 @@
 FROM nginx:1.15.7-alpine 
 
-LABEL maintainer="Stefan Kuethe <crazycapivara@gmail.com>"
-
 RUN apk update \
 	&& apk upgrade \
 	&& apk add git nodejs nodejs-npm
